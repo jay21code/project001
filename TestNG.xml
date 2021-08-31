@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" thread-count="3" parallel="tests" >
+
+<test name="ChromeTest">
+
+<parameter name="Browser" value="chrome" />
+
+<classes>
+
+<class name="org.common.utility.LCB">
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="FirefoxTest">
+
+<parameter name="Browser" value="firefox" />
+
+<classes>
+
+<class name="org.common.utility.LCB">
+
+</class>
+
+</classes>
+
+</test>
+
+<test name="EdgeTest">
+
+<parameter name="Browser" value="ie" />
+
+<classes>
+
+<class name="org.common.utility.LCB">
+
+</class>
+
+</classes>
+
+</test>
+
+</suite>
